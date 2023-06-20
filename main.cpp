@@ -11,13 +11,13 @@ struct pnm_info_t;
 
 enum pnm_type_t
 {
-    error,
-    P1=1,
-    P2=2,
-    P3=3,
-    P4=4,
-    P5=5,
-    P6=6
+    PNM_TYPE_ERROR,
+    PNM_TYPE_P1=1,
+    PNM_TYPE_P2=2,
+    PNM_TYPE_P3=3,
+    PNM_TYPE_P4=4,
+    PNM_TYPE_P5=5,
+    PNM_TYPE_P6=6
 };
 
 extern "C" pnm_info_t* pnm_info_init()
